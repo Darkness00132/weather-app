@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="/styles/weather.png">
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>Home</title>
+</head>
+<body>
+<div class="main-content">
+    <h1>{{ title }}</h1>
+    {{>header}}
+    <p>use this form to get temperature of your location</p>
+    <form id="Formweather">
+        <input placeholder="Location">
+        <button type="submit">Search</button>
+    </form>
+    <p id="message"></p>
+</div>
+{{>footer}}
+<script src="/static/script.js"></script>
+</body>
+</html>
