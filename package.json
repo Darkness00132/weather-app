@@ -6,7 +6,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Mustafa Mohamed Anwar",
+  "author": "author": {
+  "name": "Mustafa Mohamed Anwar",
+  "url": "https://github.com/Darkness00132"
+},
   "license": "ISC",
   "description": "",
   "dependencies": {
